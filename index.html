@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WDI D3 Graph</title>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">	
+</head>
+<body>
+	<center><h1>Arable Land - WDI Data</h1></center>
+	<a href="javascript:void()" onclick="indiaArable()">Indian Arable land</a><br/>
+	<a href="javascript:void()" onclick="indiaHectares()">Indian Hectares</a><br/>
+	<a href="javascript:void()" onclick="indiaHectaresPP()">Indian HectaresPP</a> <br/> 
+	<a href="javascript:void()" onclick="renderAfrica()">African Arable land</a><br/>
+	<a href="aggregate.html" target="_blank">Arable land Aggregate (Continent Wise) </a>
+
+	<!-- <button onclick="renderAfrica()">African Arable land</button>
+	<button onclick="indiaArable()">Indian Arable land</button>
+	<button onclick="indiaHectares()">Indian Hectares</button>
+	<button onclick="indiaHectaresPP()">Indian HectaresPP</button>
+	<button onclick="aggregate.html">Aggregate</button>
+	<h3><a href="aggregate.html">AGGREGATE OF ARABLE LAND IN HECTARES FOR ALL CONTINENTS</a></h3> -->
+	
+	<div id="heading" style="margin:20 100"></div>
+
+	<div id="graph"></div>
+	<script src="graph.js"></script>
+</body>
+</html>
